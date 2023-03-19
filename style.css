@@ -1,6 +1,7 @@
-* {
-	/* border: 2px black solid; */
-	/* box-sizing: border-box; */
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+	color: #f9faf8;
 }
 
 body {
@@ -12,8 +13,7 @@ body {
 }
 
 body>section {
-	padding: 0px 120px;
-	height: 500px;
+	padding: 100px 120px;
 	gap: 20px;
 }
 
@@ -26,7 +26,6 @@ nav {
 	justify-content: space-between;
 	align-items:center;
 	background-color: #1F2937;
-	/* padding: 0px 120px; */
 	gap: 35px;
 }
 
@@ -52,10 +51,10 @@ nav {
 }
 
 button.signup-button {
-	padding: 8px 35px;
+	padding: 10px 35px;
 	font-size: 16px;
 	font-weight: bold;
-	color:#E5E7EB;
+	color:#f9faf8;
 	background-color: #3882f6;
 	border: none;
 	border-radius: 6px;
@@ -79,20 +78,28 @@ button.signup-button {
 
 }
 
-header {
+header, footer {
 	margin: 0;
 	height: 60px;
-	padding: 15px 120px;
+	padding: 2px 120px;
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
 	background-color: #1F2937;
+	color: #f9faf8;
+}
+
+header {
+	justify-content: space-between;
+}
+
+footer {
+	justify-content: center;
 }
 
 .logo {
 	font-size: 24px;
 	color: #f9faf8;
-	font-weight: bold;;
+	font-weight: bold;
 }
 
 nav > ul {
@@ -114,9 +121,14 @@ section.my-work {
 	flex-direction: column;
 	align-items: center;
 	justify-content: flex-start;
+	padding: 80px;
+	padding-top: 50px;
+	gap: 50px;
 }
 
 section.my-work h2 {
+	padding: 0;
+	margin: 0;
 	font-size: 36px;
 	color:#1F2937;
 }
@@ -124,7 +136,6 @@ section.my-work h2 {
 section.my-work ul {
 	list-style: none;
 	display: flex;
-	flex: 0 1 0;
 	justify-content: space-around;
 	width: 300px;
 	gap: 50px;
@@ -133,7 +144,6 @@ section.my-work ul {
 
 section.my-work ul li {
 	font-size: 20px;
-
 }
 
 .info-icon {
@@ -150,12 +160,11 @@ section.quote-container {
 	justify-content: center;
 	align-items: center;
 	background-color: #E5E7EB;
-	height: 450px;
 }
 
 figure {
-	margin: 0 60px;
-	padding: 0;
+	margin: 0 0px;
+	padding: 0 80px;
 	font-size: 36px;
 	font-weight: lighter;
 	font-style: italic;
@@ -171,58 +180,47 @@ figcaption {
 }
 
 section.call-to-action {
-	/* margin: 0;
-	padding: 0; */
+	padding: 0 160px;
 	display: flex;
-	justify-content: center;
 	align-items: center;
-	height: 400px;
+	height: 320px;
 }
 
 div.cta-box {
 	display: flex;
-	border-radius: 13px;
+	border-radius: 8px;
 	background-color: #3882f6;
 	flex: 1;
-	padding: 60px 120px;
+	padding: 45px 100px;
 	align-items: center;
-}
-div.cta-box > div {
-	/* min-width: 50%; */
-	display: flex;
-	/* flex-direction: column; */
-	/* justify-content: space-between; */
-	/* gap: 20px; */
+	justify-content: space-around;
 }
 
 .cta-box > .left {
-	flex: 4;
+	flex: 3;
 	flex-direction: column;
 }
 .cta-box > .right {
 	flex: 1;
-	/* display: flex; */
-	/* flex-direction: row; */
-	/* flex-shrink: 6; */
-	justify-content: flex-start;
+	display: flex;
+	justify-content: center;
 	align-items:flex-end;
 }
 
 .cta-box .signup-button {
-	border-color: #E5E7EB;
+	border-color: #f9faf8;
 	border-style: solid;
 	border-width: 2px;
-	/* width: 120px; */
 }
 
 div.cta-box h2 {
 	margin: 0;
 	padding: 0;
-	color:#E5E7EB;
-	font-size: xx-large;
+	color:#f9faf8;
+	font-size: x-large;
 }
 
 div.cta-box sub {
 	font-size: large;
-	color:#f9faf8;
+	color:#E5E7EB;
 }
