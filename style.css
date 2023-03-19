@@ -13,7 +13,7 @@ body {
 }
 
 body>section {
-	padding: 100px 120px;
+	padding: 100px 250px;
 	gap: 20px;
 }
 
@@ -81,7 +81,7 @@ button.signup-button {
 header, footer {
 	margin: 0;
 	height: 60px;
-	padding: 2px 120px;
+	padding: 2px 250px;
 	display: flex;
 	align-items: center;
 	background-color: #1F2937;
@@ -180,7 +180,7 @@ figcaption {
 }
 
 section.call-to-action {
-	padding: 0 160px;
+	padding: 0 250px;
 	display: flex;
 	align-items: center;
 	height: 320px;
